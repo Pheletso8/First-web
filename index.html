@@ -1,176 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pheletso’s Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio.</a>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pheletso' Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
-        <header class="header">
-            <a href="#" class="logo">Portfolio.</a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <i class="bx bx-menu"></i>
+    </label>
 
-            <nav class="navbar">
-                <a href="#home"  style="--i:9" class="active">Home</a>
-                <a href="#about" style="--i:10">About</a>
-                <a href="#skills" style="--i:11">skills</a>
-                <a href="#" style="--i:12">Contact</a>
-                <a href="#portfolio" style="--i:13">Portfolio</a>
-            </nav>
-            
-            <div class="toggle">
-                <i class='bx bx-moon toggle-icon'></i>
-            </div>
+    <nav class="navbar">
+      <a href="#home" class="active" style="--i: 9">Home</a>
+      <a href="#about" style="--i: 10">About</a>
+      <a href="#skills" style="--i: 11">Skills</a>
+      <a href="#contact" style="--i: 12">Contact</a>
+      <a href="#portfolio" style="--i: 13">Portfolio</a>
+    </nav>
 
-        </header>
+    <div class="toggle">
+      <i class="bx bx-moon toggle-icon"></i>
+    </div>
+  </header>
 
-        <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hello, my name is</h3>
-                <h1>Pheletso Marumoloe</h1>
-                <p>I am an aspiring AI/ML engineer, "really want to be an expert in the field". I have acquired set skills in Chemistry and transitioned
-                    to Data Science where I enjoyed Machine learning model development for various problems in different industries.</p>
+  <section class="home section" id="home">
+    <div class="home-content container">
+      <h3>Hello, my name is</h3>
+      <h1>Pheletso Marumoloe</h1>
+      <p>
+        I am an aspiring AI/ML engineer, driven to become an expert in the field.
+        My journey began in Chemistry, where I built a strong scientific foundation,
+        and later transitioned into Data Science. I particularly enjoy developing
+        machine learning models for solving real-world problems across various industries.
+      </p>
 
-                <div class="social-media">
-                    <a href="https://www.linkedin.com/in/pheletso-marumoloe-422372281/" style="--i:7;"><i class='bx bxl-linkedin'></i></i></a>
-                    <a href="https://github.com/Pheletso8" style="--i:8;"><i class='bx bxl-github'></i></a>
-                </div>
+      <div class="social-media">
+        <a
+          href="https://www.linkedin.com/in/pheletso-marumoloe-422372281/"
+          style="--i: 7"
+        ><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/Pheletso8" style="--i: 8"
+        ><i class="bx bxl-github"></i></a>
+      </div>
 
-                <a href="Pheletso Marumoloe CV.pdf" class="btn">Download CV</a>
-            </div>
+      <a href="Pheletso Marumoloe CV.pdf" class="btn">Download CV</a>
+    </div>
 
-            <div class="profession-container">
-                <div class="profession-box">
-                    <div class="profession" style="--i:0">
-                        <i class='bx bx-code-alt'></i>
-                        <h3>AI/ML engineer</h3>
-                    </div>
-                    <div class="profession" style="--i:1">
-                        <i class='bx bx-football' ></i>
-                        <h3>Soccer Player</h3>
-                    </div>
-                    <div class="profession" style="--i:2">
-                        <i class='bx bx-code-alt'></i>
-                        <h3>Front-End Developer</h3>
-                    </div>
-                    <div class="profession" style="--i:3">
-                        <i class='bx bx-data' ></i>
-                        <h3>Data Scientist</h3>
-                    </div>
-                    <div class="circle"></div>
-                </div>
-                <div class="overlay"></div>
-            </div>
-            <div class="home-img">
-                <img src="IMG_1362.jpeg" alt="My Professional photo">
-            </div>
-        </section>
-
-        <!-- About Section -->
-    <section class="about" id="about">
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <p>I was born and bred in Soweto where I completed my high school education at a school called Meadowlands secondary School.
-            I then enrolled at the University of the Witwatersrand to pursue a general BSc where I majored in Chemistry and Applied Chemistry, completed in 2022.
-            following the completion of my undergraduate degree, I enrolled in the BSc hons Chemistry program where I completed the four 
-            traditional topics in chemistry which are Organic, Inorganic, Physical and Analytical Chemistry. There are two projects which you have to complete in order to
-            obtain the postgraduate degree, whats interesting is that there are also contemporary topics in chemistry which you also have to complete apart from the four traditional topics, my love for 
-            AI begun in one particular contemporary topic called the applications of AI in Chemistry which inspired the transition to Data Science. The following year after completing my honours degree I transitioned into a Postgraduate Diploma in Data Science 
-            at the same University where I studied the Maths and stats foundations of data science, the principles of machine learning and the applications of machine learning. The theory was then applied to different industries 
-            like finance and healthcare where small research projects where completed. 
-
-            Outside of school I am a very sport loving person. interested in most sport codes, and have tried out a few different sports. I particularly enjoy swimming and playing futsal, which is a particular indoor sport which draws similarities with football.
-            I really hope this gives you some form of insight into the type of person that I am. 
-            Thanks for visiting bye!!
-            </p>
+    <div class="profession-container">
+      <div class="profession-box">
+        <div class="profession" style="--i: 0">
+          <i class="bx bx-code-alt"></i>
+          <h3>AI/ML Engineer</h3>
         </div>
-
-    <section>
-
-
-    </section>
-
-
-    </section>
-
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <div class="skills-content">
-            <h2 class="heading">My <span>Skills</span></h2>
-            <ul>
-                <li>Python & R for Data Science</li>
-                <li>Machine Learning & Deep Learning</li>
-                <li>Front-End Development (HTML, CSS, JavaScript)</li>
-                <li>Data Visualization (Matplotlib, Seaborn, PowerBI)</li>
-                <li>SQL & NoSQL Databases</li>
-                <li>Model Deployment & APIs</li>
-            </ul>
+        <div class="profession" style="--i: 1">
+          <i class="bx bx-football"></i>
+          <h3>Soccer Player</h3>
         </div>
-    </section>
-
-    <section>
-
-        
-    </section>
-
-    <!-- Portfolio Section -->
-    <section class="portfolio" id="portfolio">
-        <div class="portfolio-content">
-            <h2 class="heading">My <span>Portfolio</span></h2>
-            <div class="portfolio-box">
-                <div class="project">
-                    <h3>AI-Based Stock Predictor</h3>
-                    <p>Developed an LSTM model to forecast stock prices using historical market data.</p>
-                </div>
-                <div class="project">
-                    <h3>Application of Membrane Distillation Crystallization towards
-                        the recovery of sugar from sugarcane extract.</h3>
-                    <p>A cutting-edge hybrid technique addressing the shortcomings and constraints of traditional pressure-driven
-                        membrane procedures that handle highly concentrated solutions is membrane distillation crystallization (MDC). In the
-                        study, sugar water was treated with the MDC technique to recover high-quality water and sugar crystals with uniform sizes
-                        and good crystal growth. The effect of temperature on the permeate water flux, growth and morphology, and particle size
-                        distribution was investigated by varying the feed temperatures.</p>
-
-
-
-                    <a href="Application of Membrane Distillation Crystallization towards the recovery of sugar from sugarcane extract.pdf" class="btn">Download manuscript</a>
-                    
-                    
-
-
-                </div>
-                <div class="project">
-                    <h3>Metal-tetraporphyrazine intercalated Mxene as electrocatalyst for oxygen
-                        reduction and evolution</h3>
-                    <p>Fossil fuels, the primary energy source for decades, contribute significantly to environmental pollution and climate change, driving the need for sustainable alternatives and efficient energy storage solutions. 
-                        Renewable sources like solar and wind face intermittency challenges, exacerbating grid instability and highlighting the importance of technologies such as rechargeable zinc-air batteries (RZABs). 
-                        These batteries rely on oxygen electrocatalysis—oxygen reduction (ORR) during discharge and oxygen evolution (OER) during charge—but suffer from sluggish kinetics and high overpotentials. 
-                        Current platinum-based catalysts are costly and unstable, prompting exploration of affordable alternatives. This study investigates Fe- and Co-metallotetraporphyrazines intercalated into MXenes (Ti2CTx), leveraging their stable MN4 active sites, conductivity, and corrosion resistance to enhance ORR/OER efficiency. 
-                        The composite's performance was evaluated via physicochemical characterization (UV-Vis, XRD, SEM) and electrochemical tests (CV, LSV, EIS, RDE), aiming to advance cost-effective, durable catalysts for next-generation energy storage systems.</p>
-                        
-                    <div>
-
-
-                    </div>    
-
-                    <a href="Pheletso Marumoloe_ Hons Research Project .pdf" class="btn">Download Manuscript</a>
-
-                    <div>
-
-                        
-                    </div>
-
-
-                </div>
-            </div>
+        <div class="profession" style="--i: 2">
+          <i class="bx bx-code-alt"></i>
+          <h3>Front-End Developer</h3>
         </div>
-    </section>
+        <div class="profession" style="--i: 3">
+          <i class="bx bx-data"></i>
+          <h3>Data Scientist</h3>
+        </div>
+        <div class="circle"></div>
+      </div>
+      <div class="overlay"></div>
+    </div>
 
+    <div class="home-img">
+      <img src="IMG_1362.jpeg" alt="My Professional photo" />
+    </div>
+  </section>
 
-        <script src="script.js"></script>
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="about-content container">
+      <h2 class="heading">About <span>Me</span></h2>
+      <p>
+        I was born and raised in Soweto, where I completed my high school education at Meadowlands Secondary School.
+        I then pursued a general BSc degree at the University of the Witwatersrand, majoring in Chemistry and Applied Chemistry, which I completed in 2022.
+        After my undergraduate studies, I enrolled in the BSc Honours Chemistry program, completing the four traditional branches of Chemistry:
+        Organic, Inorganic, Physical, and Analytical. I also undertook two research projects and studied contemporary topics, one of which—
+        “Applications of AI in Chemistry”—sparked my passion for Artificial Intelligence and led me to transition into Data Science.
 
-    </body>
+        The following year, I pursued a Postgraduate Diploma in Data Science at the same university. I studied the mathematical and statistical
+        foundations of Data Science, principles of machine learning, and its practical applications. I applied these skills to small research
+        projects in domains like finance and healthcare.
+
+        Outside academics, I am passionate about sports. I enjoy swimming and playing futsal—a form of indoor football. 
+        I hope this gives you a better sense of who I am. Thank you for visiting!
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills section" id="skills">
+    <div class="skills-content container">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <ul>
+        <li>Python &amp; R for Data Science</li>
+        <li>Machine Learning &amp; Deep Learning</li>
+        <li>Front-End Development (HTML, CSS, JavaScript)</li>
+        <li>Data Visualization (Matplotlib, Seaborn, Power BI)</li>
+        <li>SQL &amp; NoSQL Databases</li>
+        <li>Model Deployment &amp; APIs</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio section" id="portfolio">
+    <div class="portfolio-content container">
+      <h2 class="heading">My <span>Portfolio</span></h2>
+      <div class="portfolio-box">
+        <div class="project">
+          <h3>AI-Based Stock Predictor</h3>
+          <p>
+            Developed an LSTM-based model to forecast stock prices using historical data, incorporating time-series preprocessing, model training, and performance evaluation.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Membrane Distillation Crystallization for Sugar Recovery</h3>
+          <p>
+            This project explored a hybrid technique (MDC) to recover sugar and clean water from sugarcane extract. 
+            The study investigated the influence of temperature on permeate water flux, crystal morphology, and particle size distribution.
+          </p>
+          <a
+            href="Application of Membrane Distillation Crystallization towards the recovery of sugar from sugarcane extract.pdf"
+            class="btn"
+            >Download Manuscript</a
+          >
+        </div>
+        <div class="project">
+          <h3>MXene-Based Electrocatalyst for Oxygen Reactions</h3>
+          <p>
+            Investigated Fe- and Co-metallotetraporphyrazine intercalated MXenes (Ti2CTx) as low-cost, high-performance electrocatalysts 
+            for oxygen reduction and evolution reactions in zinc-air batteries. The project involved physicochemical and electrochemical characterization.
+          </p>
+          <a
+            href="Pheletso Marumoloe_ Hons Research Project .pdf"
+            class="btn"
+            >Download Manuscript</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>
